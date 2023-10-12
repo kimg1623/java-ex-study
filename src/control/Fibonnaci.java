@@ -1,3 +1,5 @@
+package control;
+
 public class Fibonnaci {
     /***
      * 요약: 피보나치 수열의 10번째 숫자까지 출력하기

@@ -1,3 +1,5 @@
+package control;
+
 public class PartOfGugudan {
     /***
      * 요약: 구구단 일부만 출력하기

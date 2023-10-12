@@ -1,3 +1,5 @@
+package control;
+
 public class PrintRandomNumber {
     /***
      * 요약: Math.random() 메소드 활용 실습

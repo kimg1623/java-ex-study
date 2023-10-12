@@ -1,3 +1,5 @@
+package control;
+
 public class EquationsAndSolutions {
     /***
      * 요약: 방정식 2x + 4y = 10의 모든 해 구하기

@@ -1,3 +1,5 @@
+package control;
+
 public class SumAllNumbers {
     /***
      * 요약: int 타입의 변수에 저장된 숫자의 각 자리수를 더한 합 구하기
