@@ -10,7 +10,7 @@ Java 실습코드
 | [03-Control][Folder03] | 제어문 활용 실습 |
 | [04-Array][Folder03] | 배열 활용 실습 |
    
-   [Folder01]: <https://github.com/kimg1623/java-ex-study/tree/main/01-Operator>
-   [Folder02]: <https://github.com/kimg1623/java-ex-study/tree/main/02-VariableType>
-   [Folder03]: <https://github.com/kimg1623/java-ex-study/tree/main/03-Control>
-   [Folder04]: <https://github.com/kimg1623/java-ex-study/tree/main/04-Array>
+   [Folder01]: <https://github.com/kimg1623/java-ex-study/tree/main/src/operator>
+   [Folder02]: <https://github.com/kimg1623/java-ex-study/tree/main/src/variabletype>
+   [Folder03]: <https://github.com/kimg1623/java-ex-study/tree/main/src/control>
+   [Folder04]: <https://github.com/kimg1623/java-ex-study/tree/main/src/array>
