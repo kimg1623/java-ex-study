@@ -1,3 +1,5 @@
+package variabletype;
+
 public class CheckCharaterVariable {
     public static void main(String[] args) {
 

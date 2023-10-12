@@ -1,3 +1,5 @@
+package variabletype;
+
 public class CelciusToFahrenheit {
     public static void main(String[] args) {
 

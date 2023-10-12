@@ -1,3 +1,5 @@
+package variabletype;
+
 public class FixVariableType {
     public static void main(String[] args) {
 

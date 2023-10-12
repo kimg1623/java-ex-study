@@ -1,3 +1,5 @@
+package variabletype;
+
 public class ChangeLargeToSmallCharacter {
     public static void main(String[] args) {
 
