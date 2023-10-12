@@ -1,3 +1,5 @@
+package array;
+
 public class CountCoinForChangeArgs {
     /***
      * 요약: 금액을 args로 입력받고, 거스름돈을 위해 각각 몇개의 동전이 필요한지 계산

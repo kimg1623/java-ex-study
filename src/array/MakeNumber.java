@@ -1,3 +1,5 @@
+package array;
+
 public class MakeNumber {
     /***
      * 요약: 1~9사이의 중복되지 않은 숫자로 이루어진 3자리 숫자 만들기

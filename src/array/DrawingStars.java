@@ -1,3 +1,5 @@
+package array;
+
 public class DrawingStars {
     /***
      * 요약: 배열 answer에 담긴 데이터를 읽고 각 숫자의 갯수를 세어서 *로 그래프 만들기
