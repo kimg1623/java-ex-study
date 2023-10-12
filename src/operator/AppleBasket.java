@@ -1,3 +1,5 @@
+package operator;
+
 public class AppleBasket {
     public static void main(String[] args) {
         int numOfApples = 123;  // 사과의 개수

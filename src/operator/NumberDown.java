@@ -1,3 +1,5 @@
+package operator;
+
 public class NumberDown {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package operator;
+
 public class TensDigitSubtract {
     public static void main(String[] args) {
 
