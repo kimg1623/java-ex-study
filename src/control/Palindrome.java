@@ -1,3 +1,5 @@
+package control;
+
 public class Palindrome {
     /***
      * 요약: 회문수를 구하는 프로그램

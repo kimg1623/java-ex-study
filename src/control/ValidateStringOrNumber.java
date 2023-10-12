@@ -1,3 +1,5 @@
+package control;
+
 public class ValidateStringOrNumber {
     /***
      * 요약: 숫자로 이루어진 문자열에서 모든 숫자의 합 구하기
