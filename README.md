@@ -9,8 +9,10 @@
 | [02-VariableType][Folder02] | 변수 타입에 따른 연산, 출력 확인 |
 | [03-Control][Folder03] | 제어문 활용 실습 |
 | [04-Array][Folder04] | 배열 활용 실습 |
+| [05-OOP][Folder05] | 클래스 활용 실습 |
    
    [Folder01]: <https://github.com/kimg1623/java-ex-study/tree/main/src/operator>
    [Folder02]: <https://github.com/kimg1623/java-ex-study/tree/main/src/variabletype>
    [Folder03]: <https://github.com/kimg1623/java-ex-study/tree/main/src/control>
    [Folder04]: <https://github.com/kimg1623/java-ex-study/tree/main/src/array>
+   [Folder05]: <https://github.com/kimg1623/java-ex-study/tree/main/src/oop>
