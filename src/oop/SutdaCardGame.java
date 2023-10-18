@@ -38,18 +38,18 @@ class SutdaDeck {
     }
 }
 class SutdaCard {
-    int num;
-    boolean isKwang;
+    final int NUM;  // 값이 한번 지정되면 바뀌지 않도록 제한
+    final boolean IS_KWANG; // 값이 한번 지정되면 바뀌지 않도록 제한
     SutdaCard() {
         this(1, true);
     }
     SutdaCard(int num, boolean isKwang) {
-        this.num = num;
-        this.isKwang = isKwang;
+        this.NUM = num;             // 생성자에서 단 한 번의 초기화만 가능
+        this.IS_KWANG = isKwang;    // 생성자에서 단 한 번의 초기화만 가능
     }
     // info()대신 Object클래스의 toString()을 오버라이딩
     public String toString() {
-        return num + ( isKwang ? "K":"");
+        return NUM + ( IS_KWANG ? "K":"");
     }
 }
 public class SutdaCardGame {
