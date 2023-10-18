@@ -1,15 +1,14 @@
 package oop;
-    /***
-     * 요약 : 섯다카드 20장을 포함하는 섯다카드 한 벌(SutdaDeck클래스) 정의
-     * SutdaCard 클래스는 숫자와 광 필드로 정의되어 있다.
-     * Deck 생성자 구현
-     * SutdaCard shuffle(int index) 구현
-     * SutdaCard shuffle() 구현
+/***
+ * 요약 : 섯다카드 20장을 포함하는 섯다카드 한 벌(SutdaDeck클래스) 정의
+ * SutdaCard 클래스는 숫자와 광 필드로 정의되어 있다.
+ * Deck 생성자 구현
+ * SutdaCard shuffle(int index) 구현
+ * SutdaCard shuffle() 구현
  */
 class SutdaDeck {
     final int CARD_NUM = 20;
     SutdaCard[] cards = new SutdaCard[CARD_NUM];
-
     SutdaDeck() {
         for(int i =0; i<CARD_NUM; i++) {
             if(i==0||i==2||i==7)
@@ -29,10 +28,13 @@ class SutdaDeck {
         }
     }
     public SutdaCard pick(int index){
+        if(index < 0 || index >= CARD_NUM)  // index 유효성 검사
+            return null;
         return cards[index];
     }
     public SutdaCard pick(){
-        return cards[(int)(Math.random()*20)];
+        int index = (int)(Math.random()* cards.length);
+        return pick(index); // 기존의 pick(int index) 호출하여 재사용성 높이기
     }
 }
 class SutdaCard {
@@ -59,10 +61,8 @@ public class SutdaCardGame {
         System.out.println(deck.pick(0));
         System.out.println(deck.pick());
         deck.shuffle();
-
         for(int i=0; i < deck.cards.length;i++)
             System.out.print(deck.cards[i]+",");
-
         System.out.println();
         System.out.println(deck.pick(0));
     }
