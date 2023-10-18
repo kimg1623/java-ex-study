@@ -29,28 +29,25 @@ class SutdaDeck {
         }
     }
     public SutdaCard pick(int index){
-        if(index < 0 || index >= CARD_NUM)  // index 유효성 검사
-            return null;
         return cards[index];
     }
     public SutdaCard pick(){
-        int index = (int)(Math.random()* cards.length);
-        return pick(index); // 기존의 pick(int index) 호출하여 재사용성 높이기
+        return cards[(int)(Math.random()*20)];
     }
 }
 class SutdaCard {
-    final int NUM;  // 값이 한번 지정되면 바뀌지 않도록 제한
-    final boolean IS_KWANG; // 값이 한번 지정되면 바뀌지 않도록 제한
+    int num;
+    boolean isKwang;
     SutdaCard() {
         this(1, true);
     }
     SutdaCard(int num, boolean isKwang) {
-        this.NUM = num;             // 생성자에서 단 한 번의 초기화만 가능
-        this.IS_KWANG = isKwang;    // 생성자에서 단 한 번의 초기화만 가능
+        this.num = num;
+        this.isKwang = isKwang;
     }
     // info()대신 Object클래스의 toString()을 오버라이딩
     public String toString() {
-        return NUM + ( IS_KWANG ? "K":"");
+        return num + ( isKwang ? "K":"");
     }
 }
 public class SutdaCardGame {
