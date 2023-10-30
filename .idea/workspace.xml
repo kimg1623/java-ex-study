@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="211490b8-f480-43c2-8a61-b7d8ffb2e1ff" name="Changes" comment=":sparkles: ArrayList 클래스의 addAll(), removeAll(), retainAll() 사용하여 집합연산">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/StudentClassImplementsComparableInterface.java" afterDir="false" />
+    <list default="true" id="211490b8-f480-43c2-8a61-b7d8ffb2e1ff" name="Changes" comment=":sparkles: Comparable 인터페이스 구현하여 sort() 기준으로 적용">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,12 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698394976340</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=":sparkles: Comparable 인터페이스 구현하여 sort() 기준으로 적용">
+      <option name="closed" value="true" />
+      <created>1698676832481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698676832481</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":wrench: 구성 파일 수정" />
     <MESSAGE value=":sparkles: ArrayList 클래스의 addAll(), removeAll(), retainAll() 사용하여 집합연산" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: ArrayList 클래스의 addAll(), removeAll(), retainAll() 사용하여 집합연산" />
+    <MESSAGE value=":sparkles: Comparable 인터페이스 구현하여 sort() 기준으로 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: Comparable 인터페이스 구현하여 sort() 기준으로 적용" />
   </component>
 </project>
